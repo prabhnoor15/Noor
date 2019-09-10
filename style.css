@@ -1,0 +1,102 @@
+
+*
+{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body
+{
+//  background:	#A9A9A9;
+  font-family:sans-serif;
+}
+.profile-img
+{
+  width: 40%;
+  float: right;
+
+}
+
+.memo{
+ margin-left:15px;
+}
+
+.profile-info  h1{
+  margin-top : 50px;
+  margin-bottom : 30px;
+}
+
+
+.social-media img{
+  height : 70px;
+}
+
+.social-media #fb{
+  height : 50px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left:5px;
+}
+
+.summary h1{
+  mmargin-top: 20px;
+  margin-left: 20px;
+}
+
+.summary img{
+ height : 80px;
+ margin-left:20px;
+ margin-top : 30px;
+}
+.summary small{
+  margin-left: 10px;
+}
+.summary p{
+  margin-left : 10px;
+}
+.form .info{
+  margin-left:20px;
+  margin-top:20px;
+}
+
+.input input{
+  width:25%;
+  border:0;
+  outline: none;
+  padding: 10px;
+  margin:2%;
+  display: inline-block;
+  background: #A9A9A9;
+  opacity: 0.5;
+}
+.Text-area textarea{
+  width:55%;
+  border:0;
+  outline: none;
+  padding: 10px;
+  margin:2%;
+  background: #A9A9A9;
+  opacity: 0.5;
+}
+
+.submit-btn {
+  order:0;
+  outline: none;
+  padding: 10px 20px;
+  margin:2%;
+  background: #2ab0ff;
+  cursor: pointer;
+  color: #fff;
+
+}
+
+#like_button_container{
+  order:0;
+  outline: none;
+  padding: 10px 20px;
+  margin:2%;
+  background: #2ab0ff;
+  cursor: pointer;
+  color: #fff;
+
+}
