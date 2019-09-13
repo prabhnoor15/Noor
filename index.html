@@ -8,14 +8,31 @@
     <link rel = "stylesheet" href = "style.css">
   </head>
   <body>
+
+
+  <div class="topnav" id="myTopnav">
+  <a href="#aboutme" class="active">About Me</a>
+  <a href="#technical">Technical Skills</a>
+  <a href="#contact">Contact</a>
+  <a href="#projectsection">Projects</a>
+  <a href="#study">Education</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+
+
+<a name="aboutme">
   <div class="profile-img">
   <img src="download.jpg">
   </div>
   <div class="profile-info">
-    <h1>PrabhNoor Singh</h1>
+    <h1>About Me</h1>
     <p1 class="memo">This is a basic webpage represnting the personal and professional information of PrabhNoor Singh.
       If you liked this please let me know via the comment box below. Thank You.</p1>
   </div>
+</a>
   <div class="social-media">
     <a href="https://www.linkedin.com/in/prabh-noor-492995141/">
     <img src = "linkedin.png"/>
@@ -27,6 +44,8 @@
     <img src = "email.png">
     </a>
     </div>
+
+    <a name="technical">
     <div class="summary">
       <h1> Technical Skills </h1>
       <img src="android.png">
@@ -34,6 +53,8 @@
       <small> * Worked extensively with android making apps . Used java and xml to make funtiional running app on play store with more than 800+ download.
         Used various apis and sql database to store the info.</small>
     </div>
+  </a>
+    <a name="contact">
     <div class="form">
       <h1 class="info"> Contact Me <h1>
       <form >
@@ -50,8 +71,27 @@
           <textarea rows="4" id = "time5hour" laceholder="Your Message"></textarea>
         </div>
       </form>
+      </a>
       <button type="button"class="submit-btn">SEND ME </button>
     </div>
+
+
+    <a name="projectsection">
+    <div class="projects">
+      <h1> Projects </h1>
+      <img src="android.png">
+      <p><b>Android Development </b><p>
+    </div>
+    </a>
+
+    <a name="study">
+    <div class="education">
+      <h1> Education </h1>
+      <img src="android.png">
+      <p><b>University Of Waterloo</b><p>
+    </div>
+    </a>
+
     <div id="like_button_container"></div>
     <div id="message">  </div>
     <!-- Load React. -->

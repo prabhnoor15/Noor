@@ -1,5 +1,19 @@
-
 $(document).ready(function(){
+if (!sessionStorage.getItem('timer_station')){
+  alert("This website is work in prgress");
+  sessionStorage.setItem('timer_station', true);
+}
+
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+
 $(".submit-btn").click(function(){
   var timeOne = $("#time1hour").val();
   var timeTwo = $('#time2hour').val();
