@@ -30,20 +30,21 @@
   background-color: #FFFFFF;
   color: black;
 }
-
 .topnav p {
   float: left;
   color: #000000;
   padding: 0px 7px;
-  font-size: 17px;
+  font-size: 19px;
   background-color: #ffffff;
   border: 2px solid black;
-  opacity: 0.6;
+  opacity: 0.63
   box-sizing: border-box;
   margin: 5px;
 }
 
-
+.typo{
+  margin-left: 30%;
+}
 /* Add an active class to highlight the current page */
 
 
@@ -63,7 +64,7 @@
 }
 
 // The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally)
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {
     position: absolute;
@@ -79,13 +80,14 @@
     float: left;
     color: #000000;
     padding: 0px 7px;
-    font-size: 17px;
+    font-size: 20px;
     background-color: #ffffff;
     border: 2px solid black;
-    opacity: 0.6;
+    opacity: 0.63
     box-sizing: border-box;
     margin: 5px;
   }
+
 }
 
 
@@ -95,6 +97,13 @@
   padding:0;
   box-sizing:border-box;
 }
+
+@media screen and (max-width: 800px) {
+  .typo {
+    margin-left: 1px;
+  }
+}
+
 body
 {
 //  background:	#A9A9A9;
@@ -104,7 +113,6 @@ body
 {
   width: 40%;
   float: right;
-
 }
 
 .memo{
@@ -126,19 +134,83 @@ body
 }
 
 .social-media img{
-  height : 70px;
+  height : 50px;
 }
 
 .social-media #fb{
   height : 50px;
-  margin-bottom: 10px;
+  margin-bottom: 1px;
   margin-right: 10px;
-  margin-left:5px;
+  margin-left:15px;
+}
+
+.social-media #phone{
+  margin-left:15px;
+}
+
+.social-media #play{
+  margin-left:15px;
+}
+
+.projects h1{
+  margin-top: 40px;
+  margin-left: 20px;
+}
+.projects img{
+  height : 80px;
+  margin-left:20px;
+  margin-top : 20px;
+}
+.projects p{
+  margin-left: 10px;
+}
+.projects small{
+  margin-left: 10px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+.columnnew{
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.education1 {
+  width: 59%;
+  border: 2px solid black;
+  opacity: 0.63
+  box-sizing: content-box;
+  margin: 5px;
+}
+
+.education h1{
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.education img{
+  height : 80px;
+  margin-left:20px;
+  margin-top : 30px;
+}
+
+.education p{
+  margin-left:20px;
 }
 
 
 .summary h1{
-  mmargin-top: 20px;
+  margin-top: 20px;
   margin-left: 20px;
 }
 
@@ -153,9 +225,10 @@ body
 .summary p{
   margin-left : 10px;
 }
+
 .form .info{
   margin-left:20px;
-  margin-top:20px;
+  margin-top:50px;
 }
 
 .input input{
@@ -169,7 +242,7 @@ body
   opacity: 0.5;
 }
 .Text-area textarea{
-  width:55%;
+  width:57%;
   border:0;
   outline: none;
   padding: 10px;
