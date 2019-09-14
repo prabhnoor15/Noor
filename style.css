@@ -8,6 +8,12 @@
   overflow: hidden;
 }
 
+.topnav h1{
+  background-color: #FFFFFF;
+  overflow: hidden;
+  margin-left: 15px;
+}
+
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
@@ -24,6 +30,19 @@
   background-color: #FFFFFF;
   color: black;
 }
+
+.topnav p {
+  float: left;
+  color: #000000;
+  padding: 0px 7px;
+  font-size: 17px;
+  background-color: #ffffff;
+  border: 2px solid black;
+  opacity: 0.6;
+  box-sizing: border-box;
+  margin: 5px;
+}
+
 
 /* Add an active class to highlight the current page */
 
@@ -56,6 +75,17 @@
     display: block;
     text-align: left;
   }
+  .topnav.responsive p {
+    float: left;
+    color: #000000;
+    padding: 0px 7px;
+    font-size: 17px;
+    background-color: #ffffff;
+    border: 2px solid black;
+    opacity: 0.6;
+    box-sizing: border-box;
+    margin: 5px;
+  }
 }
 
 
@@ -81,11 +111,19 @@ body
  margin-left:15px;
 }
 
+.memo2{
+ margin-left:15px;
+}
+
 .profile-info  h1{
   margin-top : 50px;
   margin-bottom : 30px;
+  margin-left: 20px;
 }
 
+.tools{
+  text-align: center;
+}
 
 .social-media img{
   height : 70px;
@@ -97,6 +135,7 @@ body
   margin-right: 10px;
   margin-left:5px;
 }
+
 
 .summary h1{
   mmargin-top: 20px;
